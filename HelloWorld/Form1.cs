@@ -16,5 +16,21 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HWButton_Click(object sender, EventArgs e)
+        {
+            HWLabel.Show();
+            HWButton.Hide();
+            ExitButton.Show();
+        }
+        private void ExitButton_Click_1(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
